@@ -11,9 +11,11 @@ const Resume = () =>{
     return(
     <C.Conteiner>
         <ResumeItem  title="Entradas"
-        Icon={FaRegArrowAltCircleUp}/>
+        Icon={FaRegArrowAltCircleUp}
+        value="1000"/>
         <ResumeItem title="Saídas"
-        Icon={FaRegArrowAltCircleDown}/>
+        Icon={FaRegArrowAltCircleDown}
+        value="1000"/>
         <ResumeItem title="Total" Icon={FaDollarSign}/>
         </C.Conteiner>
     )
